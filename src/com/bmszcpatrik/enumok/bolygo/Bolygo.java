@@ -30,7 +30,7 @@ public enum Bolygo {
         return sugar;
     }
 
-    public double getSuly(){
+    public double getSuly(double tomeg){
         return tomeg * this.getG();
     }
 }
